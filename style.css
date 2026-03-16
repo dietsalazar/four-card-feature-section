@@ -7,7 +7,7 @@
     --blue: hsl(212, 86%, 64%);
     --grey-500: hsl(234, 12%, 34%);
     --grey-400: hsl(212, 6%, 44%);
-    --white: hsl(0, 0%, 100%);
+    --white: hsl(0, 0%, 98%);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -26,6 +26,7 @@ body {
 
 main {
     padding: 2.5rem;
+    color: var(--grey-500);
 }
 
 h1 {
@@ -72,6 +73,7 @@ p {
     border-radius: 5px;
     box-shadow: 0 10px 10px hsl(212, 6%, 44%, 0.3);
     padding: 2rem;
+    background-color: white;
 }
 
 .card-content img {
